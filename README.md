@@ -65,13 +65,15 @@ This board provides a minimal but fully functional RP2040 platform with clean po
 - Dealing with ground isolated islands
 
 ---
-## BOM table
+
 
 | front layer | back layer | schema |
 | :---: | :---: | :---: |
 | <img width="228" height="553" alt="Screenshot 2026-02-10 220607" src="https://github.com/user-attachments/assets/103a7305-779d-4cf1-8ccb-f85d48699586" /> | <img width="231" height="550" alt="Screenshot 2026-02-10 220547" src="https://github.com/user-attachments/assets/5608bde4-f5d5-47f2-ad24-7cdf741b6f25" /> | <img width="992" height="679" alt="Screenshot 2026-02-10 220213" src="https://github.com/user-attachments/assets/47d9b6cc-1522-4254-8ea5-a852176c2aef" /> |
 
 ---
+## BOM table
+
 | Description       | Value        | Footprint | LCSC Part # | Quantity | Notes             |
 | ----------------- | ------------ | --------- | ----------- | -------- | ----------------- |
 | Microcontroller   | RP2040       | QFN-56    | C2040       | 1        | Main MCU          |
