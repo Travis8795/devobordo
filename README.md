@@ -2,9 +2,9 @@
 
 devobordo is a custom RP2040 development board designed from scratch in KiCad.
 
-The goal of this project was to deeply understand the RP2040 architecture, power design, PCB layout, and manufacturability constraints (JLCPCB).
+The goal of this project was try and work on the RP2040 architecture, power design, PCB layout, and manufacturability constraints (JLCPCB).
 
-This board provides a minimal but fully functional RP2040 platform with clean power routing, proper decoupling, USB interface, and full GPIO breakout for experimentation.
+This board provides a minimal but fully functional RP2040 platform with clean power routing, proper decoupling, USB interface, full GPIO breakout for experimentation, and battery capability.
 
 
 | front | back |
@@ -39,16 +39,6 @@ This board provides a minimal but fully functional RP2040 platform with clean po
   - QSPI flash
   - Crystal oscillator
 
-
-## PCB Design Goals
-
-- Clean ground return paths
-- Short and wide 3V3 rails
-- Correct USB D+ / D− routing
-- Thermal relief tuning
-- DRC-clean for JLCPCB production
-- Use of JLC basic parts where possible
-
 ## Designed With
 
 - KiCad 9
@@ -71,8 +61,8 @@ This board provides a minimal but fully functional RP2040 platform with clean po
 - Decoupling capacitor placement strategy
 - Thermal relief tuning
 - USB differential routing basics
-- DRC debugging and constraint fixing
-- Designing for automated assembly
+- DRC debugging
+- Dealing with ground isolated islands
 
 ---
 
