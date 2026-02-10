@@ -6,7 +6,6 @@ The goal of this project was to deeply understand the RP2040 architecture, power
 
 This board provides a minimal but fully functional RP2040 platform with clean power routing, proper decoupling, USB interface, and full GPIO breakout for experimentation.
 
----
 
 ## Features
 
@@ -22,7 +21,6 @@ This board provides a minimal but fully functional RP2040 platform with clean po
 - Full GPIO breakout headers
 - 2-layer PCB optimized for low impedance power routing
 
----
 
 ## Power Architecture
 
@@ -37,7 +35,6 @@ This board provides a minimal but fully functional RP2040 platform with clean po
   - QSPI flash
   - Crystal oscillator
 
----
 
 ## PCB Design Goals
 
@@ -48,8 +45,6 @@ This board provides a minimal but fully functional RP2040 platform with clean po
 - DRC-clean for JLCPCB production
 - Use of JLC basic parts where possible
 
----
-
 ## Designed With
 
 - KiCad 9
@@ -57,7 +52,6 @@ This board provides a minimal but fully functional RP2040 platform with clean po
 - RP2040 datasheet reference design
 - Blueprint Hackclub devboard guide
 
----
 
 ## Manufacturing
 
@@ -66,7 +60,6 @@ This board provides a minimal but fully functional RP2040 platform with clean po
 - JLCPCB assembly
 - Standard component footprints (0603, 0402)
 
----
 
 ## What I Learned
 
