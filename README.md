@@ -1,4 +1,4 @@
-# devobordo
+<img width="67" height="20" alt="image" src="https://github.com/user-attachments/assets/e49cf293-19f8-4c1d-b43e-4e031418c3d1" /><img width="67" height="20" alt="image" src="https://github.com/user-attachments/assets/ac2cce80-b4a1-41b8-9fbe-f7357c617966" /># devobordo
 
 devobordo is a custom RP2040 development board designed from scratch in KiCad.
 
@@ -78,8 +78,16 @@ This board provides a minimal but fully functional RP2040 platform with clean po
 | LDO Regulator     | MCP1700-3302 | SOT-23    | C62354      | 1        | 3.3V regulator    |
 | Crystal           | 12MHz        | 3225      | C9002       | 1        | Main clock        |
 | LED               | Red 0603     | 0603      | C2286       | 2        | Power indicator, and GPIO25|
-| Resistor          | 1kΩ          | 0603      | C21190      | 2        | LED current limit |
-| Ceramic Capacitor | 100nF        | 0603      | C14663      | 6        | Decoupling        |
+| Resistor          | 1kΩ          | 0402      | C21190      | 2        | LED current limit |
+| Resistor          | 27Ω         | 0402      | C21190      | 2        | USB D+/D- |
+| Resistor          | 5.1KΩ         | 0402      | C21190      | 2        | CC pull down |
+| Ceramic Capacitor | 100nF        | 0402      | C14663      | 11        | Decoupling        |
 | Ceramic Capacitor | 10uF         | 0603      | C19702      | 2        | Bulk filtering    |
-| Ceramic Capacitor | 1uF          | 0603      | C15849      | 1        | Core regulator    |
+| Ceramic Capacitor | 1uF          | 0402      | C15849      | 2        | Core regulator    |
+| Ceramic Capacitor | 33pF          | 0402      | C1562      | 2        | crystal filtering    |
+| Push Button | SW_Push | SW_Push_SPST_NO_Alps_SKRK  | C341730      | 1        | Bootloder    |
+| Diod | 1N4148WT | D_SOD-123  | C78089      | 2       | Reverse protection    |
+| USB_C receptacle | USB_C_Receptacle_USB2.0_14P | USB_C_Receptacle_HRO_TYPE-C-31-M-12  | C165948      | 1        | USB connection    |
+
+
 
