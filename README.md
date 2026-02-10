@@ -69,3 +69,17 @@ This board provides a minimal but fully functional RP2040 platform with clean po
 | front layer | back layer | schema |
 | :---: | :---: | :---: |
 | <img width="228" height="553" alt="Screenshot 2026-02-10 220607" src="https://github.com/user-attachments/assets/103a7305-779d-4cf1-8ccb-f85d48699586" /> | <img width="231" height="550" alt="Screenshot 2026-02-10 220547" src="https://github.com/user-attachments/assets/5608bde4-f5d5-47f2-ad24-7cdf741b6f25" /> | <img width="992" height="679" alt="Screenshot 2026-02-10 220213" src="https://github.com/user-attachments/assets/47d9b6cc-1522-4254-8ea5-a852176c2aef" /> |
+
+---
+| Description       | Value        | Footprint | LCSC Part # | Quantity | Notes             |
+| ----------------- | ------------ | --------- | ----------- | -------- | ----------------- |
+| Microcontroller   | RP2040       | QFN-56    | C2040       | 1        | Main MCU          |
+| QSPI Flash        | W25Q16JV     | SOIC-8    | C97521      | 1        | External flash    |
+| LDO Regulator     | MCP1700-3302 | SOT-23    | C62354      | 1        | 3.3V regulator    |
+| Crystal           | 12MHz        | 3225      | C9002       | 1        | Main clock        |
+| LED               | Red 0603     | 0603      | C2286       | 2        | Power indicator, and GPIO25|
+| Resistor          | 1kΩ          | 0603      | C21190      | 2        | LED current limit |
+| Ceramic Capacitor | 100nF        | 0603      | C14663      | 6        | Decoupling        |
+| Ceramic Capacitor | 10uF         | 0603      | C19702      | 2        | Bulk filtering    |
+| Ceramic Capacitor | 1uF          | 0603      | C15849      | 1        | Core regulator    |
+
