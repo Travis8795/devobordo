@@ -1,4 +1,4 @@
-<img width="67" height="20" alt="image" src="https://github.com/user-attachments/assets/e49cf293-19f8-4c1d-b43e-4e031418c3d1" /><img width="67" height="20" alt="image" src="https://github.com/user-attachments/assets/ac2cce80-b4a1-41b8-9fbe-f7357c617966" /># devobordo
+# devobordo
 
 devobordo is a custom RP2040 development board designed from scratch in KiCad.
 
