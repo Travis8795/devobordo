@@ -65,7 +65,7 @@ This board provides a minimal but fully functional RP2040 platform with clean po
 - Dealing with ground isolated islands
 
 ---
-##BOM table
+## BOM table
 
 | front layer | back layer | schema |
 | :---: | :---: | :---: |
