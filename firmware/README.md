@@ -9,3 +9,6 @@ The board is compatible with the official Pico SDK.
 | UART       | GPIO0 / GPIO1            |
 | I2C        | GPIO4 / GPIO5            |
 | SPI        | GPIO16–19                |
+
+
+for the [latest update](https://micropython.org/download/RPI_PICO/)
