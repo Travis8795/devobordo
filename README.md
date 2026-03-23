@@ -27,7 +27,7 @@ This board provides a minimal but fully functional RP2040 platform with clean po
 
 
 ## Power Architecture
-
+*DO NOT CHARGE THE BATTERY WITH THE BOARD, CHARGE IT WITH AN EXTERNAL CHARGER*
 - USB 5V input
 - Reverse protection diode
 - MCP1700 3.3V LDO regulator
